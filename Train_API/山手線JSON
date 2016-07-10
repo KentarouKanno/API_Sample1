@@ -1,0 +1,296 @@
+{
+    response =     {
+        station =         (
+                        {
+                line = "JR\U5c71\U624b\U7dda";
+                name = "\U54c1\U5ddd";
+                next = "\U5927\U5d0e";
+                postal = 1080075;
+                prefecture = "\U6771\U4eac\U90fd";
+                prev = "\U7530\U753a";
+                x = "139.738535";
+                y = "35.628135";
+            },
+                        {
+                line = "JR\U5c71\U624b\U7dda";
+                name = "\U5927\U5d0e";
+                next = "\U4e94\U53cd\U7530";
+                postal = 1410032;
+                prefecture = "\U6771\U4eac\U90fd";
+                prev = "\U54c1\U5ddd";
+                x = "139.728246";
+                y = "35.61994";
+            },
+                        {
+                line = "JR\U5c71\U624b\U7dda";
+                name = "\U4e94\U53cd\U7530";
+                next = "\U76ee\U9ed2";
+                postal = 1410022;
+                prefecture = "\U6771\U4eac\U90fd";
+                prev = "\U5927\U5d0e";
+                x = "139.723909";
+                y = "35.625805";
+            },
+                        {
+                line = "JR\U5c71\U624b\U7dda";
+                name = "\U76ee\U9ed2";
+                next = "\U6075\U6bd4\U5bff";
+                postal = 1410021;
+                prefecture = "\U6771\U4eac\U90fd";
+                prev = "\U4e94\U53cd\U7530";
+                x = "139.715729";
+                y = "35.633407";
+            },
+                        {
+                line = "JR\U5c71\U624b\U7dda";
+                name = "\U6075\U6bd4\U5bff";
+                next = "\U6e0b\U8c37";
+                postal = 1500013;
+                prefecture = "\U6771\U4eac\U90fd";
+                prev = "\U76ee\U9ed2";
+                x = "139.710123";
+                y = "35.646684";
+            },
+                        {
+                line = "JR\U5c71\U624b\U7dda";
+                name = "\U6e0b\U8c37";
+                next = "\U539f\U5bbf";
+                postal = 1500002;
+                prefecture = "\U6771\U4eac\U90fd";
+                prev = "\U6075\U6bd4\U5bff";
+                x = "139.701722";
+                y = "35.658081";
+            },
+                        {
+                line = "JR\U5c71\U624b\U7dda";
+                name = "\U539f\U5bbf";
+                next = "\U4ee3\U3005\U6728";
+                postal = 1500001;
+                prefecture = "\U6771\U4eac\U90fd";
+                prev = "\U6e0b\U8c37";
+                x = "139.702715";
+                y = "35.671319";
+            },
+                        {
+                line = "JR\U5c71\U624b\U7dda";
+                name = "\U4ee3\U3005\U6728";
+                next = "\U65b0\U5bbf";
+                postal = 1510051;
+                prefecture = "\U6771\U4eac\U90fd";
+                prev = "\U539f\U5bbf";
+                x = "139.702208";
+                y = "35.683794";
+            },
+                        {
+                line = "JR\U5c71\U624b\U7dda";
+                name = "\U65b0\U5bbf";
+                next = "\U65b0\U5927\U4e45\U4fdd";
+                postal = 1600022;
+                prefecture = "\U6771\U4eac\U90fd";
+                prev = "\U4ee3\U3005\U6728";
+                x = "139.700643";
+                y = "35.689873";
+            },
+                        {
+                line = "JR\U5c71\U624b\U7dda";
+                name = "\U65b0\U5927\U4e45\U4fdd";
+                next = "\U9ad8\U7530\U99ac\U5834";
+                postal = 1690073;
+                prefecture = "\U6771\U4eac\U90fd";
+                prev = "\U65b0\U5bbf";
+                x = "139.700254";
+                y = "35.700929";
+            },
+                        {
+                line = "JR\U5c71\U624b\U7dda";
+                name = "\U9ad8\U7530\U99ac\U5834";
+                next = "\U76ee\U767d";
+                postal = 1690075;
+                prefecture = "\U6771\U4eac\U90fd";
+                prev = "\U65b0\U5927\U4e45\U4fdd";
+                x = "139.703967";
+                y = "35.71331";
+            },
+                        {
+                line = "JR\U5c71\U624b\U7dda";
+                name = "\U76ee\U767d";
+                next = "\U6c60\U888b";
+                postal = 1710031;
+                prefecture = "\U6771\U4eac\U90fd";
+                prev = "\U9ad8\U7530\U99ac\U5834";
+                x = "139.706281";
+                y = "35.720393";
+            },
+                        {
+                line = "JR\U5c71\U624b\U7dda";
+                name = "\U6c60\U888b";
+                next = "\U5927\U585a";
+                postal = 1710021;
+                prefecture = "\U6771\U4eac\U90fd";
+                prev = "\U76ee\U767d";
+                x = "139.711085";
+                y = "35.730275";
+            },
+                        {
+                line = "JR\U5c71\U624b\U7dda";
+                name = "\U5927\U585a";
+                next = "\U5de3\U9d28";
+                postal = 1700005;
+                prefecture = "\U6771\U4eac\U90fd";
+                prev = "\U6c60\U888b";
+                x = "139.72794";
+                y = "35.731786";
+            },
+                        {
+                line = "JR\U5c71\U624b\U7dda";
+                name = "\U5de3\U9d28";
+                next = "\U99d2\U8fbc";
+                postal = 1700002;
+                prefecture = "\U6771\U4eac\U90fd";
+                prev = "\U5927\U585a";
+                x = "139.740353";
+                y = "35.733722";
+            },
+                        {
+                line = "JR\U5c71\U624b\U7dda";
+                name = "\U99d2\U8fbc";
+                next = "\U7530\U7aef";
+                postal = 1700003;
+                prefecture = "\U6771\U4eac\U90fd";
+                prev = "\U5de3\U9d28";
+                x = "139.748403";
+                y = "35.737025";
+            },
+                        {
+                line = "JR\U5c71\U624b\U7dda";
+                name = "\U7530\U7aef";
+                next = "\U897f\U65e5\U66ae\U91cc";
+                postal = 1140013;
+                prefecture = "\U6771\U4eac\U90fd";
+                prev = "\U99d2\U8fbc";
+                x = "139.761575";
+                y = "35.737474";
+            },
+                        {
+                line = "JR\U5c71\U624b\U7dda";
+                name = "\U897f\U65e5\U66ae\U91cc";
+                next = "\U65e5\U66ae\U91cc";
+                postal = 1160013;
+                prefecture = "\U6771\U4eac\U90fd";
+                prev = "\U7530\U7aef";
+                x = "139.766713";
+                y = "35.732174";
+            },
+                        {
+                line = "JR\U5c71\U624b\U7dda";
+                name = "\U65e5\U66ae\U91cc";
+                next = "\U9daf\U8c37";
+                postal = 1100001;
+                prefecture = "\U6771\U4eac\U90fd";
+                prev = "\U897f\U65e5\U66ae\U91cc";
+                x = "139.770877";
+                y = "35.72739";
+            },
+                        {
+                line = "JR\U5c71\U624b\U7dda";
+                name = "\U9daf\U8c37";
+                next = "\U4e0a\U91ce";
+                postal = 1100003;
+                prefecture = "\U6771\U4eac\U90fd";
+                prev = "\U65e5\U66ae\U91cc";
+                x = "139.778032";
+                y = "35.721453";
+            },
+                        {
+                line = "JR\U5c71\U624b\U7dda";
+                name = "\U4e0a\U91ce";
+                next = "\U5fa1\U5f92\U753a";
+                postal = 1100005;
+                prefecture = "\U6771\U4eac\U90fd";
+                prev = "\U9daf\U8c37";
+                x = "139.776714";
+                y = "35.713701";
+            },
+                        {
+                line = "JR\U5c71\U624b\U7dda";
+                name = "\U5fa1\U5f92\U753a";
+                next = "\U79cb\U8449\U539f";
+                postal = 1100005;
+                prefecture = "\U6771\U4eac\U90fd";
+                prev = "\U4e0a\U91ce";
+                x = "139.774717";
+                y = "35.707195";
+            },
+                        {
+                line = "JR\U5c71\U624b\U7dda";
+                name = "\U79cb\U8449\U539f";
+                next = "\U795e\U7530";
+                postal = 1010028;
+                prefecture = "\U6771\U4eac\U90fd";
+                prev = "\U5fa1\U5f92\U753a";
+                x = "139.773144";
+                y = "35.698305";
+            },
+                        {
+                line = "JR\U5c71\U624b\U7dda";
+                name = "\U795e\U7530";
+                next = "\U6771\U4eac";
+                postal = 1010044;
+                prefecture = "\U6771\U4eac\U90fd";
+                prev = "\U79cb\U8449\U539f";
+                x = "139.770879";
+                y = "35.69177";
+            },
+                        {
+                line = "JR\U5c71\U624b\U7dda";
+                name = "\U6771\U4eac";
+                next = "\U6709\U697d\U753a";
+                postal = 1000005;
+                prefecture = "\U6771\U4eac\U90fd";
+                prev = "\U795e\U7530";
+                x = "139.766709";
+                y = "35.681247";
+            },
+                        {
+                line = "JR\U5c71\U624b\U7dda";
+                name = "\U6709\U697d\U753a";
+                next = "\U65b0\U6a4b";
+                postal = 1000006;
+                prefecture = "\U6771\U4eac\U90fd";
+                prev = "\U6771\U4eac";
+                x = "139.763261";
+                y = "35.675037";
+            },
+                        {
+                line = "JR\U5c71\U624b\U7dda";
+                name = "\U65b0\U6a4b";
+                next = "\U6d5c\U677e\U753a";
+                postal = 1050004;
+                prefecture = "\U6771\U4eac\U90fd";
+                prev = "\U6709\U697d\U753a";
+                x = "139.758462";
+                y = "35.666298";
+            },
+                        {
+                line = "JR\U5c71\U624b\U7dda";
+                name = "\U6d5c\U677e\U753a";
+                next = "\U7530\U753a";
+                postal = 1050022;
+                prefecture = "\U6771\U4eac\U90fd";
+                prev = "\U65b0\U6a4b";
+                x = "139.757126";
+                y = "35.655408";
+            },
+                        {
+                line = "JR\U5c71\U624b\U7dda";
+                name = "\U7530\U753a";
+                next = "\U54c1\U5ddd";
+                postal = 1080023;
+                prefecture = "\U6771\U4eac\U90fd";
+                prev = "\U6d5c\U677e\U753a";
+                x = "139.747602";
+                y = "35.645737";
+            }
+        );
+    };
+}
