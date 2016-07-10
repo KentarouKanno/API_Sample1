@@ -12,7 +12,7 @@ class APIManager {
     
     var stationDataArray: Array<StationModel> = []
 
-    func getStationData(searchText: String, closure: Array<StationModel> -> Void)  {
+    func getStationData(searchText: String, closure: Array<StationModel>? -> Void)  {
         
         // let query: String = "JR山手線"
         let encodedQuery: String = searchText.stringByAddingPercentEncodingWithAllowedCharacters(.URLHostAllowedCharacterSet())!
@@ -31,12 +31,13 @@ class APIManager {
                     // JSONをNSDictionaryに変換
                     let jsonDic = try NSJSONSerialization.JSONObjectWithData(data, options: .MutableContainers) as! NSDictionary
                     
-                    print(jsonDic)
+                    print("JSON = ",jsonDic)
                     
                     if let dictData = jsonDic["response"] as? NSDictionary {
                         if let arrayData = dictData["station"] as? NSArray {
                             for stationObj in arrayData {
                                 
+                                // Modelにデータを反映
                                 self.stationDataArray.append(StationModel(dataDict: stationObj as! NSDictionary))
                             }
                         }
@@ -47,14 +48,14 @@ class APIManager {
                     
                 } catch {
                     // JSONパースエラー
-                    closure(self.stationDataArray)
                     print("JSONパースエラー: \(error)")
+                    closure(nil)
                 }
                 
             } else {
                 // 通信エラー
-                closure(self.stationDataArray)
                 print("通信エラー:",error)
+                closure(nil)
             }
         }
         

@@ -15,7 +15,7 @@
 		3665437E1D312B59004F42AA /* StationModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3665437D1D312B59004F42AA /* StationModel.swift */; };
 		366543801D31313A004F42AA /* CustomCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3665437F1D31313A004F42AA /* CustomCell.swift */; };
 		366543821D31C4EF004F42AA /* APIManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 366543811D31C4EF004F42AA /* APIManager.swift */; };
-		366543871D31CE08004F42AA /* 山手線JSON in Resources */ = {isa = PBXBuildFile; fileRef = 366543861D31CE08004F42AA /* 山手線JSON */; };
+		366543871D31CE08004F42AA /* 山手線JSON Sample in Resources */ = {isa = PBXBuildFile; fileRef = 366543861D31CE08004F42AA /* 山手線JSON Sample */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -29,7 +29,7 @@
 		3665437D1D312B59004F42AA /* StationModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StationModel.swift; sourceTree = "<group>"; };
 		3665437F1D31313A004F42AA /* CustomCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomCell.swift; sourceTree = "<group>"; };
 		366543811D31C4EF004F42AA /* APIManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = APIManager.swift; sourceTree = "<group>"; };
-		366543861D31CE08004F42AA /* 山手線JSON */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "山手線JSON"; sourceTree = "<group>"; };
+		366543861D31CE08004F42AA /* 山手線JSON Sample */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "山手線JSON Sample"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -95,7 +95,7 @@
 			isa = PBXGroup;
 			children = (
 				366543811D31C4EF004F42AA /* APIManager.swift */,
-				366543861D31CE08004F42AA /* 山手線JSON */,
+				366543861D31CE08004F42AA /* 山手線JSON Sample */,
 			);
 			name = API;
 			sourceTree = "<group>";
@@ -161,7 +161,7 @@
 				366543761D31254F004F42AA /* LaunchScreen.storyboard in Resources */,
 				366543731D31254F004F42AA /* Assets.xcassets in Resources */,
 				366543711D31254E004F42AA /* Main.storyboard in Resources */,
-				366543871D31CE08004F42AA /* 山手線JSON in Resources */,
+				366543871D31CE08004F42AA /* 山手線JSON Sample in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -326,6 +326,7 @@
 				3665437C1D31254F004F42AA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

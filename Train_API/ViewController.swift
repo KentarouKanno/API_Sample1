@@ -26,12 +26,11 @@ class ViewController: UIViewController {
 
     
     @IBAction func pushSearchButton(sender: AnyObject) {
-        
         textField.resignFirstResponder()
         
         // API Access
         APIManager().getStationData(textField.text!) { (stationDatas) in
-            if !stationDatas.isEmpty {
+            if let stationDatas = stationDatas {
                 self.stationDataArray = stationDatas
                 self.tableView.reloadData()
             }
@@ -48,9 +47,9 @@ class ViewController: UIViewController {
     // Generate Cell
     func tableView(tableView: UITableView, cellForRowAtIndexPath indexPath: NSIndexPath) -> UITableViewCell {
         let cell = tableView.dequeueReusableCellWithIdentifier("CustomCell", forIndexPath: indexPath) as! CustomCell
+        // Dataを設定
         cell.stationData = stationDataArray[indexPath.row]
         return cell
     }
-
 }
 
